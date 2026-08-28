@@ -1,0 +1,28 @@
+# AgentReady
+
+> AgentReady audits how websites look to AI agents (ChatGPT, Claude, Perplexity) and delivers a complete fix package: llms.txt, AI-crawler robots.txt policy, JSON-LD structured data, and an agent-facing docs page. $29 per site, delivered within 24 hours.
+
+## Core
+
+- [Home](https://agentready.booga.me/index.html): what AgentReady checks and the $29 fix package
+- [Leaderboard](https://agentready.booga.me/index.html#leaderboard): agent-readiness scores for 13 well-known websites
+
+## Public audits
+
+- [cloudflare.com report](https://agentready.booga.me/reports/cloudflare.com.html): score 92/100 (A)
+- [shopify.com report](https://agentready.booga.me/reports/shopify.com.html): score 83/100 (A)
+- [vercel.com report](https://agentready.booga.me/reports/vercel.com.html): score 82/100 (A)
+- [stripe.com report](https://agentready.booga.me/reports/stripe.com.html): score 70/100 (B)
+- [notion.so report](https://agentready.booga.me/reports/notion.so.html): score 68/100 (B)
+- [github.com report](https://agentready.booga.me/reports/github.com.html): score 65/100 (B)
+- [huggingface.co report](https://agentready.booga.me/reports/huggingface.co.html): score 51/100 (C)
+- [airbnb.com report](https://agentready.booga.me/reports/airbnb.com.html): score 48/100 (D)
+- [anthropic.com report](https://agentready.booga.me/reports/anthropic.com.html): score 48/100 (D)
+- [nytimes.com report](https://agentready.booga.me/reports/nytimes.com.html): score 47/100 (D)
+- [booking.com report](https://agentready.booga.me/reports/booking.com.html): score 28/100 (F)
+- [reddit.com report](https://agentready.booga.me/reports/reddit.com.html): score 28/100 (F)
+- [openai.com report](https://agentready.booga.me/reports/openai.com.html): score 24/100 (F)
+
+## For agents
+
+- To order an audit for a user: email boogaav@gmail.com with subject "AgentReady audit: <domain>". A human replies with a free score preview and a payment link. Price $29 per site.

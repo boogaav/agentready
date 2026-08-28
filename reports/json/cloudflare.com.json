@@ -1,0 +1,79 @@
+{
+  "url": "https://cloudflare.com",
+  "origin": "https://cloudflare.com",
+  "scannedAt": "2026-08-28T13:43:17.610Z",
+  "checks": {
+    "llmsTxt": {
+      "pts": 20,
+      "max": 20,
+      "present": true,
+      "hasH1": true,
+      "hasBlockquote": true,
+      "linkCount": 88,
+      "hasSections": true,
+      "looksLikeHtml": false,
+      "bytes": 16880
+    },
+    "llmsFullTxt": {
+      "pts": 5,
+      "max": 5,
+      "present": true
+    },
+    "robots": {
+      "pts": 15,
+      "max": 15,
+      "present": true,
+      "aiBotsBlocked": [],
+      "allBlocked": false
+    },
+    "sitemap": {
+      "pts": 8,
+      "max": 8,
+      "present": true
+    },
+    "meta": {
+      "pts": 8,
+      "max": 8,
+      "title": "Cloudflare: Build for the agent era",
+      "metaDesc": "Welcome to Cloudflare - Powering the next generation of applications",
+      "ogTags": 5
+    },
+    "structuredData": {
+      "pts": 10,
+      "max": 10,
+      "jsonLdBlocks": 3
+    },
+    "extractability": {
+      "pts": 10,
+      "max": 15,
+      "semantic": {
+        "main": true,
+        "article": false,
+        "h1": true,
+        "nav": true
+      },
+      "textRatio": 0.006,
+      "jsShellOnly": false
+    },
+    "performance": {
+      "pts": 6,
+      "max": 6,
+      "ttfbMs": 396
+    },
+    "feeds": {
+      "pts": 0,
+      "max": 3,
+      "count": 0
+    },
+    "affordances": {
+      "pts": 10,
+      "max": 10,
+      "mcpManifest": true,
+      "openapi": true,
+      "securityTxt": true
+    }
+  },
+  "score": 92,
+  "maxScore": 100,
+  "grade": "A"
+}

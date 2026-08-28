@@ -1,0 +1,79 @@
+{
+  "url": "https://stripe.com",
+  "origin": "https://stripe.com",
+  "scannedAt": "2026-08-28T13:43:19.582Z",
+  "checks": {
+    "llmsTxt": {
+      "pts": 20,
+      "max": 20,
+      "present": true,
+      "hasH1": true,
+      "hasBlockquote": true,
+      "linkCount": 288,
+      "hasSections": true,
+      "looksLikeHtml": false,
+      "bytes": 64986
+    },
+    "llmsFullTxt": {
+      "pts": 0,
+      "max": 5,
+      "present": false
+    },
+    "robots": {
+      "pts": 15,
+      "max": 15,
+      "present": true,
+      "aiBotsBlocked": [],
+      "allBlocked": false
+    },
+    "sitemap": {
+      "pts": 0,
+      "max": 8,
+      "present": false
+    },
+    "meta": {
+      "pts": 8,
+      "max": 8,
+      "title": "Online-Bezahldienst und Zahlungsdienstleister | Stripe",
+      "metaDesc": "Stripe ist eine Finanzdienstleistungsplattform, die Unternehmen jeder Art hilft, Zahlungen zu akzeptieren, flexible Abrechnungsmodelle zu erstellen und Geldbewe",
+      "ogTags": 5
+    },
+    "structuredData": {
+      "pts": 10,
+      "max": 10,
+      "jsonLdBlocks": 1
+    },
+    "extractability": {
+      "pts": 10,
+      "max": 15,
+      "semantic": {
+        "main": true,
+        "article": false,
+        "h1": true,
+        "nav": true
+      },
+      "textRatio": 0.023,
+      "jsShellOnly": false
+    },
+    "performance": {
+      "pts": 6,
+      "max": 6,
+      "ttfbMs": 726
+    },
+    "feeds": {
+      "pts": 0,
+      "max": 3,
+      "count": 0
+    },
+    "affordances": {
+      "pts": 1,
+      "max": 10,
+      "mcpManifest": false,
+      "openapi": false,
+      "securityTxt": true
+    }
+  },
+  "score": 70,
+  "maxScore": 100,
+  "grade": "B"
+}

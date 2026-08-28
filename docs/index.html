@@ -1,0 +1,203 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AgentReady — is your website ready for AI agents?</title>
+<meta name="description" content="AI agents are becoming your visitors. We audit how your site looks to them and ship the fixes: llms.txt, AI crawler policy, structured data, agent-facing docs. $29, delivered in 24h.">
+<meta property="og:title" content="AgentReady — is your website ready for AI agents?">
+<meta property="og:description" content="AI agents are becoming your visitors. We audit how your site looks to them and ship the fixes: llms.txt, AI crawler policy, structured data, agent-facing docs. $29, delivered in 24h.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://agentready.booga.me/">
+<link rel="canonical" href="https://agentready.booga.me/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"AgentReady Audit","description":"Agent-readiness audit and fix package for websites: llms.txt, AI crawler policy, structured data, agent-facing docs.","provider":{"@type":"Organization","name":"AgentReady","url":"https://agentready.booga.me"},"offers":{"@type":"Offer","price":"29","priceCurrency":"USD"}}</script>
+<style>
+:root{--bg:#0a0e14;--panel:#111725;--panel2:#161e30;--border:#232d45;--text:#e6ebf4;--dim:#8b96ad;--accent:#4f8cff;--good:#22c55e;--bad:#ef4444;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font:16px/1.6 'Inter',system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+.mono{font-family:'JetBrains Mono',ui-monospace,monospace}
+.wrap{max-width:960px;margin:0 auto;padding:0 24px}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0;border-bottom:1px solid var(--border)}
+nav .logo{font-weight:700;font-size:18px;color:var(--text)}
+nav .logo span{color:var(--accent)}
+.hero{padding:72px 0 48px;text-align:left;max-width:760px}
+.hero h1{font-size:clamp(30px,5vw,46px);line-height:1.15;font-weight:800;letter-spacing:-.02em}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p{margin-top:18px;font-size:18px;color:var(--dim);max-width:600px}
+.cta{display:inline-block;margin-top:28px;background:var(--accent);color:#fff;font-weight:600;padding:13px 26px;border-radius:8px;font-size:16px}
+.cta:hover{text-decoration:none;filter:brightness(1.1)}
+.cta.ghost{background:transparent;border:1px solid var(--border);color:var(--text);margin-left:12px}
+.sub{color:var(--dim);font-size:14px;margin-top:12px}
+section{padding:48px 0;border-top:1px solid var(--border)}
+h2{font-size:26px;font-weight:700;margin-bottom:8px;letter-spacing:-.01em}
+.lead{color:var(--dim);margin-bottom:28px}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th{text-align:left;color:var(--dim);font-weight:500;font-size:13px;text-transform:uppercase;letter-spacing:.06em;padding:10px 12px;border-bottom:1px solid var(--border)}
+td{padding:12px;border-bottom:1px solid var(--border)}
+tr:hover td{background:var(--panel)}
+.grade{display:inline-block;width:34px;height:34px;line-height:34px;text-align:center;border-radius:8px;font-weight:700;color:#0a0e14;font-family:'JetBrains Mono',monospace}
+.bar{height:6px;border-radius:3px;background:var(--panel2);overflow:hidden;min-width:120px}
+.bar i{display:block;height:100%}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:20px}
+.card h3{font-size:16px;margin-bottom:6px}
+.card p{color:var(--dim);font-size:14px}
+.offer{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--border);border-radius:16px;padding:36px;margin-top:8px}
+.offer .price{font-size:40px;font-weight:800}
+.offer .price small{font-size:16px;color:var(--dim);font-weight:400}
+.offer ul{margin:20px 0;list-style:none}
+.offer li{padding:7px 0 7px 30px;position:relative}
+.offer li:before{content:'✓';position:absolute;left:0;color:var(--good);font-weight:700}
+.tablewrap{overflow-x:auto}
+footer{padding:40px 0;color:var(--dim);font-size:14px;border-top:1px solid var(--border);margin-top:48px}
+.pill{display:inline-block;background:var(--panel2);border:1px solid var(--border);border-radius:99px;padding:3px 12px;font-size:13px;color:var(--dim);margin-bottom:20px}
+.checkdetail{color:var(--dim);font-size:14px}
+</style></head><body><div class="wrap"><nav><a class="logo" href="index.html">agent<span>ready</span></a><div><a href="index.html#leaderboard">Leaderboard</a> &nbsp;·&nbsp; <a href="index.html#offer">Pricing</a> &nbsp;·&nbsp; <a href="https://github.com/boogaav/agentready">GitHub</a></nav></div>
+<div class="wrap">
+<div class="hero">
+<div class="pill mono">13 famous sites scored below · most fail</div>
+<h1>AI agents are your new visitors.<br>Most websites are <em>invisible</em> to them.</h1>
+<p>ChatGPT, Claude and Perplexity now browse, compare and buy on behalf of millions of people. If an agent can't read your site, you don't exist to it. We audit exactly what agents see — and ship the fixes.</p>
+<a class="cta" href="mailto:boogaav@gmail.com?subject=AgentReady%20audit%3A%20my%20site&body=Site%20to%20audit%3A%20%0A%0A(We%20reply%20within%20a%20few%20hours%20with%20your%20score%20preview%20and%20a%20payment%20link.%20Full%20fix%20package%20delivered%20within%2024h%20of%20payment.)">Get your audit — $29</a>
+<a class="cta ghost" href="#leaderboard">See how big sites score ↓</a>
+<p class="sub">$29 flat · full fix package · delivered within 24h · money-back if you don't learn anything new</p>
+</div>
+
+<section id="leaderboard">
+<h2>The Agent-Readiness Leaderboard</h2>
+<p class="lead">We ran our open-source scanner on well-known sites. Every score links to the full public report. Scanned 2026-08-28.</p>
+<div class="tablewrap"><table>
+<tr><th>#</th><th>Site</th><th>Grade</th><th></th><th>Score</th></tr>
+<tr>
+<td class="mono" style="color:var(--dim)">1</td>
+<td><a href="reports/cloudflare.com.html"><strong>cloudflare.com</strong></a></td>
+<td><span class="grade" style="background:#22c55e">A</span></td>
+<td><div class="bar"><i style="width:92%;background:#22c55e"></i></div></td>
+<td class="mono">92/100</td>
+</tr>
+<tr>
+<td class="mono" style="color:var(--dim)">2</td>
+<td><a href="reports/shopify.com.html"><strong>shopify.com</strong></a></td>
+<td><span class="grade" style="background:#22c55e">A</span></td>
+<td><div class="bar"><i style="width:83%;background:#22c55e"></i></div></td>
+<td class="mono">83/100</td>
+</tr>
+<tr>
+<td class="mono" style="color:var(--dim)">3</td>
+<td><a href="reports/vercel.com.html"><strong>vercel.com</strong></a></td>
+<td><span class="grade" style="background:#22c55e">A</span></td>
+<td><div class="bar"><i style="width:82%;background:#22c55e"></i></div></td>
+<td class="mono">82/100</td>
+</tr>
+<tr>
+<td class="mono" style="color:var(--dim)">4</td>
+<td><a href="reports/stripe.com.html"><strong>stripe.com</strong></a></td>
+<td><span class="grade" style="background:#84cc16">B</span></td>
+<td><div class="bar"><i style="width:70%;background:#84cc16"></i></div></td>
+<td class="mono">70/100</td>
+</tr>
+<tr>
+<td class="mono" style="color:var(--dim)">5</td>
+<td><a href="reports/notion.so.html"><strong>notion.so</strong></a></td>
+<td><span class="grade" style="background:#84cc16">B</span></td>
+<td><div class="bar"><i style="width:68%;background:#84cc16"></i></div></td>
+<td class="mono">68/100</td>
+</tr>
+<tr>
+<td class="mono" style="color:var(--dim)">6</td>
+<td><a href="reports/github.com.html"><strong>github.com</strong></a></td>
+<td><span class="grade" style="background:#84cc16">B</span></td>
+<td><div class="bar"><i style="width:65%;background:#84cc16"></i></div></td>
+<td class="mono">65/100</td>
+</tr>
+<tr>
+<td class="mono" style="color:var(--dim)">7</td>
+<td><a href="reports/huggingface.co.html"><strong>huggingface.co</strong></a></td>
+<td><span class="grade" style="background:#eab308">C</span></td>
+<td><div class="bar"><i style="width:51%;background:#eab308"></i></div></td>
+<td class="mono">51/100</td>
+</tr>
+<tr>
+<td class="mono" style="color:var(--dim)">8</td>
+<td><a href="reports/airbnb.com.html"><strong>airbnb.com</strong></a></td>
+<td><span class="grade" style="background:#f97316">D</span></td>
+<td><div class="bar"><i style="width:48%;background:#f97316"></i></div></td>
+<td class="mono">48/100</td>
+</tr>
+<tr>
+<td class="mono" style="color:var(--dim)">9</td>
+<td><a href="reports/anthropic.com.html"><strong>anthropic.com</strong></a></td>
+<td><span class="grade" style="background:#f97316">D</span></td>
+<td><div class="bar"><i style="width:48%;background:#f97316"></i></div></td>
+<td class="mono">48/100</td>
+</tr>
+<tr>
+<td class="mono" style="color:var(--dim)">10</td>
+<td><a href="reports/nytimes.com.html"><strong>nytimes.com</strong></a></td>
+<td><span class="grade" style="background:#f97316">D</span></td>
+<td><div class="bar"><i style="width:47%;background:#f97316"></i></div></td>
+<td class="mono">47/100</td>
+</tr>
+<tr>
+<td class="mono" style="color:var(--dim)">11</td>
+<td><a href="reports/booking.com.html"><strong>booking.com</strong></a></td>
+<td><span class="grade" style="background:#ef4444">F</span></td>
+<td><div class="bar"><i style="width:28%;background:#ef4444"></i></div></td>
+<td class="mono">28/100</td>
+</tr>
+<tr>
+<td class="mono" style="color:var(--dim)">12</td>
+<td><a href="reports/reddit.com.html"><strong>reddit.com</strong></a></td>
+<td><span class="grade" style="background:#ef4444">F</span></td>
+<td><div class="bar"><i style="width:28%;background:#ef4444"></i></div></td>
+<td class="mono">28/100</td>
+</tr>
+<tr>
+<td class="mono" style="color:var(--dim)">13</td>
+<td><a href="reports/openai.com.html"><strong>openai.com</strong></a> <span class="checkdetail">· blocks agents</span></td>
+<td><span class="grade" style="background:#ef4444">F</span></td>
+<td><div class="bar"><i style="width:24%;background:#ef4444"></i></div></td>
+<td class="mono">24/100</td>
+</tr>
+</table></div>
+<p class="sub" style="margin-top:16px">Methodology is public — <a href="https://github.com/boogaav/agentready">scanner source on GitHub</a>. "Blocks agents" means the homepage returns 403 to non-browser clients.</p>
+</section>
+
+<section>
+<h2>What we check</h2>
+<p class="lead">10 checks across discoverability, parsability and agent affordances — the same dimensions Lighthouse's new Agentic Browsing category cares about.</p>
+<div class="grid">
+<div class="card"><h3>llms.txt</h3><p>The emerging standard for giving agents a curated map of your site. Now part of Chrome Lighthouse’s Agentic Browsing audits.</p></div>
+<div class="card"><h3>AI crawler policy</h3><p>Does your robots.txt welcome or block GPTBot, ClaudeBot, PerplexityBot and 10+ other AI crawlers — on purpose or by accident?</p></div>
+<div class="card"><h3>Structured data</h3><p>JSON-LD tells agents what your business, products and prices actually are, instead of making them guess.</p></div>
+<div class="card"><h3>Content extractability</h3><p>JS-only shells are invisible to most agents. We measure what an agent actually sees without a browser.</p></div>
+<div class="card"><h3>Agent affordances</h3><p>MCP manifests, OpenAPI specs, security.txt — the interfaces that let agents act, not just read.</p></div>
+<div class="card"><h3>Meta, sitemap, feeds & speed</h3><p>The boring fundamentals that decide whether agents can find, parse and trust your pages at all.</p></div>
+</div>
+</section>
+
+<section id="offer">
+<h2>The fix package</h2>
+<p class="lead">Free scanners give you a score and leave. We give you the fixes, done.</p>
+<div class="offer">
+<div class="price">$29 <small>per site, one-time</small></div>
+<ul>
+<li><strong>Full audit report</strong> — every check, what agents currently see, prioritized by impact</li>
+<li><strong>llms.txt + llms-full.txt, written for your site</strong> — curated, spec-compliant, ready to upload</li>
+<li><strong>robots.txt AI-crawler policy</strong> — explicit rules for 14 AI bots, matched to your business intent</li>
+<li><strong>JSON-LD structured data</strong> — copy-paste blocks for your key pages</li>
+<li><strong>Agent-facing docs page</strong> — a /for-agents page that tells agents what you offer and how to act</li>
+<li><strong>Free re-scan</strong> — apply the fixes, we verify your new score</li>
+</ul>
+<a class="cta" href="mailto:boogaav@gmail.com?subject=AgentReady%20audit%3A%20my%20site&body=Site%20to%20audit%3A%20%0A%0A(We%20reply%20within%20a%20few%20hours%20with%20your%20score%20preview%20and%20a%20payment%20link.%20Full%20fix%20package%20delivered%20within%2024h%20of%20payment.)">Get your audit — $29</a>
+<p class="sub">Delivered within 24h. Email us your URL — you get a free score preview before paying anything.</p>
+</div>
+</section>
+
+<section>
+<h2>Why now</h2>
+<p class="lead" style="margin-bottom:0">Google added agentic-browsing audits to Lighthouse this year. OpenAI, Anthropic and Perplexity agents already do real purchasing and research for their users. The sites that are readable to agents get recommended; the rest silently drop out of the answer. Being early costs $29. Being late costs the traffic.</p>
+</section>
+
+<footer><div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px"><span>© 2026 AgentReady · <a href="mailto:boogaav@gmail.com">boogaav@gmail.com</a></span><span><a href="llms.txt">llms.txt</a> · <a href="https://github.com/boogaav/agentready">GitHub</a></span></div></footer>
+</div></body></html>

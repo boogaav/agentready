@@ -1,0 +1,73 @@
+{
+  "url": "https://airbnb.com",
+  "origin": "https://airbnb.com",
+  "scannedAt": "2026-08-28T13:43:21.875Z",
+  "checks": {
+    "llmsTxt": {
+      "pts": 0,
+      "max": 20,
+      "present": false
+    },
+    "llmsFullTxt": {
+      "pts": 0,
+      "max": 5,
+      "present": false
+    },
+    "robots": {
+      "pts": 15,
+      "max": 15,
+      "present": true,
+      "aiBotsBlocked": [],
+      "allBlocked": false
+    },
+    "sitemap": {
+      "pts": 0,
+      "max": 8,
+      "present": false
+    },
+    "meta": {
+      "pts": 8,
+      "max": 8,
+      "title": "Airbnb: Vacation Rentals, Cabins, Beach Houses, Unique Homes &amp; Experiences",
+      "metaDesc": "Get an Airbnb for every kind of trip → 8 million vacation rentals → 2 million Guest Favorites → 220+ countries and regions worldwide",
+      "ogTags": 7
+    },
+    "structuredData": {
+      "pts": 10,
+      "max": 10,
+      "jsonLdBlocks": 1
+    },
+    "extractability": {
+      "pts": 10,
+      "max": 15,
+      "semantic": {
+        "main": true,
+        "article": false,
+        "h1": true,
+        "nav": true
+      },
+      "textRatio": 0.006,
+      "jsShellOnly": false
+    },
+    "performance": {
+      "pts": 4,
+      "max": 6,
+      "ttfbMs": 937
+    },
+    "feeds": {
+      "pts": 0,
+      "max": 3,
+      "count": 0
+    },
+    "affordances": {
+      "pts": 1,
+      "max": 10,
+      "mcpManifest": false,
+      "openapi": false,
+      "securityTxt": true
+    }
+  },
+  "score": 48,
+  "maxScore": 100,
+  "grade": "D"
+}

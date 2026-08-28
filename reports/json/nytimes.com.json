@@ -1,0 +1,88 @@
+{
+  "url": "https://nytimes.com",
+  "origin": "https://nytimes.com",
+  "scannedAt": "2026-08-28T13:43:13.757Z",
+  "checks": {
+    "llmsTxt": {
+      "pts": 0,
+      "max": 20,
+      "present": false
+    },
+    "llmsFullTxt": {
+      "pts": 0,
+      "max": 5,
+      "present": false
+    },
+    "robots": {
+      "pts": 9,
+      "max": 15,
+      "present": true,
+      "aiBotsBlocked": [
+        "GPTBot",
+        "ClaudeBot",
+        "Claude-User",
+        "Claude-SearchBot",
+        "anthropic-ai",
+        "PerplexityBot",
+        "Perplexity-User",
+        "Google-Extended",
+        "CCBot",
+        "Bytespider",
+        "OAI-SearchBot",
+        "ChatGPT-User",
+        "Applebot-Extended",
+        "meta-externalagent"
+      ],
+      "allBlocked": false
+    },
+    "sitemap": {
+      "pts": 0,
+      "max": 8,
+      "present": false
+    },
+    "meta": {
+      "pts": 8,
+      "max": 8,
+      "title": "The New York Times - Breaking News, US News, World News and Videos",
+      "metaDesc": "Live news, investigations, opinion, photos and video by the journalists of The New York Times from more than 150 countries around the world. Subscribe for cover",
+      "ogTags": 5
+    },
+    "structuredData": {
+      "pts": 10,
+      "max": 10,
+      "jsonLdBlocks": 2
+    },
+    "extractability": {
+      "pts": 10,
+      "max": 15,
+      "semantic": {
+        "main": true,
+        "article": false,
+        "h1": true,
+        "nav": true
+      },
+      "textRatio": 0.007,
+      "jsShellOnly": false
+    },
+    "performance": {
+      "pts": 6,
+      "max": 6,
+      "ttfbMs": 642
+    },
+    "feeds": {
+      "pts": 3,
+      "max": 3,
+      "count": 1
+    },
+    "affordances": {
+      "pts": 1,
+      "max": 10,
+      "mcpManifest": false,
+      "openapi": false,
+      "securityTxt": true
+    }
+  },
+  "score": 47,
+  "maxScore": 100,
+  "grade": "D"
+}

@@ -1,0 +1,79 @@
+{
+  "url": "https://notion.so",
+  "origin": "https://notion.so",
+  "scannedAt": "2026-08-28T13:43:14.917Z",
+  "checks": {
+    "llmsTxt": {
+      "pts": 17,
+      "max": 20,
+      "present": true,
+      "hasH1": false,
+      "hasBlockquote": true,
+      "linkCount": 48,
+      "hasSections": true,
+      "looksLikeHtml": false,
+      "bytes": 6776
+    },
+    "llmsFullTxt": {
+      "pts": 0,
+      "max": 5,
+      "present": false
+    },
+    "robots": {
+      "pts": 15,
+      "max": 15,
+      "present": true,
+      "aiBotsBlocked": [],
+      "allBlocked": false
+    },
+    "sitemap": {
+      "pts": 8,
+      "max": 8,
+      "present": true
+    },
+    "meta": {
+      "pts": 8,
+      "max": 8,
+      "title": "The AI workspace that works for you. | Notion",
+      "metaDesc": "Build Custom Agents, search across all your apps, and automate busywork. The AI workspace where teams get more done, faster.",
+      "ogTags": 7
+    },
+    "structuredData": {
+      "pts": 0,
+      "max": 10,
+      "jsonLdBlocks": 0
+    },
+    "extractability": {
+      "pts": 10,
+      "max": 15,
+      "semantic": {
+        "main": true,
+        "article": true,
+        "h1": true,
+        "nav": true
+      },
+      "textRatio": 0.011,
+      "jsShellOnly": false
+    },
+    "performance": {
+      "pts": 4,
+      "max": 6,
+      "ttfbMs": 1037
+    },
+    "feeds": {
+      "pts": 0,
+      "max": 3,
+      "count": 0
+    },
+    "affordances": {
+      "pts": 6,
+      "max": 10,
+      "mcpManifest": true,
+      "openapi": false,
+      "securityTxt": true
+    }
+  },
+  "score": 68,
+  "maxScore": 100,
+  "grade": "B"
+}

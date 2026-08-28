@@ -1,0 +1,73 @@
+{
+  "url": "https://huggingface.co",
+  "origin": "https://huggingface.co",
+  "scannedAt": "2026-08-28T13:43:19.138Z",
+  "checks": {
+    "llmsTxt": {
+      "pts": 0,
+      "max": 20,
+      "present": false
+    },
+    "llmsFullTxt": {
+      "pts": 0,
+      "max": 5,
+      "present": false
+    },
+    "robots": {
+      "pts": 15,
+      "max": 15,
+      "present": true,
+      "aiBotsBlocked": [],
+      "allBlocked": false
+    },
+    "sitemap": {
+      "pts": 8,
+      "max": 8,
+      "present": true
+    },
+    "meta": {
+      "pts": 8,
+      "max": 8,
+      "title": "Hugging Face – The AI community building the future.",
+      "metaDesc": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "ogTags": 5
+    },
+    "structuredData": {
+      "pts": 0,
+      "max": 10,
+      "jsonLdBlocks": 0
+    },
+    "extractability": {
+      "pts": 10,
+      "max": 15,
+      "semantic": {
+        "main": true,
+        "article": true,
+        "h1": true,
+        "nav": true
+      },
+      "textRatio": 0.026,
+      "jsShellOnly": false
+    },
+    "performance": {
+      "pts": 6,
+      "max": 6,
+      "ttfbMs": 206
+    },
+    "feeds": {
+      "pts": 3,
+      "max": 3,
+      "count": 1
+    },
+    "affordances": {
+      "pts": 1,
+      "max": 10,
+      "mcpManifest": false,
+      "openapi": false,
+      "securityTxt": true
+    }
+  },
+  "score": 51,
+  "maxScore": 100,
+  "grade": "C"
+}

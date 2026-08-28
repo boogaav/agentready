@@ -1,0 +1,73 @@
+{
+  "url": "https://reddit.com",
+  "origin": "https://reddit.com",
+  "scannedAt": "2026-08-28T13:43:18.520Z",
+  "checks": {
+    "llmsTxt": {
+      "pts": 0,
+      "max": 20,
+      "present": false
+    },
+    "llmsFullTxt": {
+      "pts": 0,
+      "max": 5,
+      "present": true
+    },
+    "robots": {
+      "pts": 11,
+      "max": 15,
+      "present": true,
+      "aiBotsBlocked": [],
+      "allBlocked": true
+    },
+    "sitemap": {
+      "pts": 0,
+      "max": 8,
+      "present": true
+    },
+    "meta": {
+      "pts": 3,
+      "max": 8,
+      "title": "Reddit",
+      "metaDesc": null,
+      "ogTags": 0
+    },
+    "structuredData": {
+      "pts": 0,
+      "max": 10,
+      "jsonLdBlocks": 0
+    },
+    "extractability": {
+      "pts": 7,
+      "max": 15,
+      "semantic": {
+        "main": true,
+        "article": false,
+        "h1": false,
+        "nav": false
+      },
+      "textRatio": 0.001,
+      "jsShellOnly": false
+    },
+    "performance": {
+      "pts": 6,
+      "max": 6,
+      "ttfbMs": 369
+    },
+    "feeds": {
+      "pts": 0,
+      "max": 3,
+      "count": 0
+    },
+    "affordances": {
+      "pts": 1,
+      "max": 10,
+      "mcpManifest": false,
+      "openapi": false,
+      "securityTxt": true
+    }
+  },
+  "score": 28,
+  "maxScore": 100,
+  "grade": "F"
+}

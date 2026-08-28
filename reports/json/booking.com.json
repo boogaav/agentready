@@ -1,0 +1,73 @@
+{
+  "url": "https://booking.com",
+  "origin": "https://booking.com",
+  "scannedAt": "2026-08-28T13:43:16.311Z",
+  "checks": {
+    "llmsTxt": {
+      "pts": 0,
+      "max": 20,
+      "present": false
+    },
+    "llmsFullTxt": {
+      "pts": 0,
+      "max": 5,
+      "present": false
+    },
+    "robots": {
+      "pts": 15,
+      "max": 15,
+      "present": true,
+      "aiBotsBlocked": [],
+      "allBlocked": false
+    },
+    "sitemap": {
+      "pts": 0,
+      "max": 8,
+      "present": false
+    },
+    "meta": {
+      "pts": 0,
+      "max": 8,
+      "title": null,
+      "metaDesc": null,
+      "ogTags": 0
+    },
+    "structuredData": {
+      "pts": 0,
+      "max": 10,
+      "jsonLdBlocks": 0
+    },
+    "extractability": {
+      "pts": 6,
+      "max": 15,
+      "semantic": {
+        "main": false,
+        "article": false,
+        "h1": true,
+        "nav": false
+      },
+      "textRatio": 0.023,
+      "jsShellOnly": false
+    },
+    "performance": {
+      "pts": 6,
+      "max": 6,
+      "ttfbMs": 451
+    },
+    "feeds": {
+      "pts": 0,
+      "max": 3,
+      "count": 0
+    },
+    "affordances": {
+      "pts": 1,
+      "max": 10,
+      "mcpManifest": false,
+      "openapi": false,
+      "securityTxt": true
+    }
+  },
+  "score": 28,
+  "maxScore": 100,
+  "grade": "F"
+}

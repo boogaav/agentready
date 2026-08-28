@@ -1,0 +1,73 @@
+{
+  "url": "https://anthropic.com",
+  "origin": "https://anthropic.com",
+  "scannedAt": "2026-08-28T13:43:12.498Z",
+  "checks": {
+    "llmsTxt": {
+      "pts": 0,
+      "max": 20,
+      "present": false
+    },
+    "llmsFullTxt": {
+      "pts": 0,
+      "max": 5,
+      "present": false
+    },
+    "robots": {
+      "pts": 15,
+      "max": 15,
+      "present": true,
+      "aiBotsBlocked": [],
+      "allBlocked": false
+    },
+    "sitemap": {
+      "pts": 8,
+      "max": 8,
+      "present": true
+    },
+    "meta": {
+      "pts": 8,
+      "max": 8,
+      "title": "Home \\ Anthropic",
+      "metaDesc": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "ogTags": 5
+    },
+    "structuredData": {
+      "pts": 0,
+      "max": 10,
+      "jsonLdBlocks": 0
+    },
+    "extractability": {
+      "pts": 10,
+      "max": 15,
+      "semantic": {
+        "main": true,
+        "article": false,
+        "h1": true,
+        "nav": true
+      },
+      "textRatio": 0.026,
+      "jsShellOnly": false
+    },
+    "performance": {
+      "pts": 6,
+      "max": 6,
+      "ttfbMs": 310
+    },
+    "feeds": {
+      "pts": 0,
+      "max": 3,
+      "count": 0
+    },
+    "affordances": {
+      "pts": 1,
+      "max": 10,
+      "mcpManifest": false,
+      "openapi": false,
+      "securityTxt": true
+    }
+  },
+  "score": 48,
+  "maxScore": 100,
+  "grade": "D"
+}

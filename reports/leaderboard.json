@@ -1,0 +1,106 @@
+[
+  {
+    "site": "cloudflare.com",
+    "score": 92,
+    "grade": "A",
+    "llms": true,
+    "blocked": false,
+    "unreliable": false
+  },
+  {
+    "site": "shopify.com",
+    "score": 83,
+    "grade": "A",
+    "llms": true,
+    "blocked": false,
+    "unreliable": false
+  },
+  {
+    "site": "vercel.com",
+    "score": 82,
+    "grade": "A",
+    "llms": true,
+    "blocked": false,
+    "unreliable": false
+  },
+  {
+    "site": "stripe.com",
+    "score": 70,
+    "grade": "B",
+    "llms": true,
+    "blocked": false,
+    "unreliable": false
+  },
+  {
+    "site": "notion.so",
+    "score": 68,
+    "grade": "B",
+    "llms": true,
+    "blocked": false,
+    "unreliable": false
+  },
+  {
+    "site": "github.com",
+    "score": 65,
+    "grade": "B",
+    "llms": true,
+    "blocked": false,
+    "unreliable": false
+  },
+  {
+    "site": "huggingface.co",
+    "score": 51,
+    "grade": "C",
+    "llms": false,
+    "blocked": false,
+    "unreliable": false
+  },
+  {
+    "site": "airbnb.com",
+    "score": 48,
+    "grade": "D",
+    "llms": false,
+    "blocked": false,
+    "unreliable": false
+  },
+  {
+    "site": "anthropic.com",
+    "score": 48,
+    "grade": "D",
+    "llms": false,
+    "blocked": false,
+    "unreliable": false
+  },
+  {
+    "site": "nytimes.com",
+    "score": 47,
+    "grade": "D",
+    "llms": false,
+    "blocked": false,
+    "unreliable": false
+  },
+  {
+    "site": "booking.com",
+    "score": 28,
+    "grade": "F",
+    "llms": false,
+    "blocked": false,
+    "unreliable": false
+  },
+  {
+    "site": "reddit.com",
+    "score": 28,
+    "grade": "F",
+    "llms": false,
+    "blocked": false,
+    "unreliable": false
+  },
+  {
+    "site": "openai.com",
+    "score": 24,
+    "grade": "F",
+    "llms": false,
+    "blocked": true,
+    "unreliable": false
+  }
+]

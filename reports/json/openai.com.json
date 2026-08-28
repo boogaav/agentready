@@ -1,0 +1,66 @@
+{
+  "url": "https://openai.com",
+  "origin": "https://openai.com",
+  "scannedAt": "2026-08-28T13:43:11.470Z",
+  "checks": {
+    "llmsTxt": {
+      "pts": 0,
+      "max": 20,
+      "present": false
+    },
+    "llmsFullTxt": {
+      "pts": 0,
+      "max": 5,
+      "present": false
+    },
+    "robots": {
+      "pts": 15,
+      "max": 15,
+      "present": true,
+      "aiBotsBlocked": [],
+      "allBlocked": false
+    },
+    "sitemap": {
+      "pts": 8,
+      "max": 8,
+      "present": true
+    },
+    "meta": {
+      "pts": 0,
+      "max": 8,
+      "error": "homepage blocks automated access (403)"
+    },
+    "structuredData": {
+      "pts": 0,
+      "max": 10,
+      "error": "homepage blocks automated access (403)"
+    },
+    "extractability": {
+      "pts": 0,
+      "max": 15,
+      "error": "homepage blocks automated access (403)"
+    },
+    "performance": {
+      "pts": 0,
+      "max": 6,
+      "ttfbMs": 142,
+      "error": "homepage blocks automated access (403)"
+    },
+    "feeds": {
+      "pts": 0,
+      "max": 3,
+      "error": "homepage blocks automated access (403)"
+    },
+    "affordances": {
+      "pts": 1,
+      "max": 10,
+      "mcpManifest": false,
+      "openapi": false,
+      "securityTxt": true
+    }
+  },
+  "score": 24,
+  "maxScore": 100,
+  "grade": "F",
+  "homeBlocked": true
+}

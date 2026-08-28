@@ -1,0 +1,9 @@
+{
+  "name": "agentready",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Score how ready a website is for AI agents",
+  "bin": { "agentready": "src/scan.mjs" },
+  "scripts": { "build": "node src/build-site.mjs" },
+  "license": "MIT"
+}

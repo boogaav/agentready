@@ -1,0 +1,79 @@
+{
+  "url": "https://github.com",
+  "origin": "https://github.com",
+  "scannedAt": "2026-08-28T13:43:14.572Z",
+  "checks": {
+    "llmsTxt": {
+      "pts": 20,
+      "max": 20,
+      "present": true,
+      "hasH1": true,
+      "hasBlockquote": true,
+      "linkCount": 117,
+      "hasSections": true,
+      "looksLikeHtml": false,
+      "bytes": 28650
+    },
+    "llmsFullTxt": {
+      "pts": 5,
+      "max": 5,
+      "present": true
+    },
+    "robots": {
+      "pts": 15,
+      "max": 15,
+      "present": true,
+      "aiBotsBlocked": [],
+      "allBlocked": false
+    },
+    "sitemap": {
+      "pts": 0,
+      "max": 8,
+      "present": false
+    },
+    "meta": {
+      "pts": 8,
+      "max": 8,
+      "title": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub",
+      "metaDesc": "Join the world&#39;s most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build so",
+      "ogTags": 7
+    },
+    "structuredData": {
+      "pts": 0,
+      "max": 10,
+      "jsonLdBlocks": 0
+    },
+    "extractability": {
+      "pts": 10,
+      "max": 15,
+      "semantic": {
+        "main": true,
+        "article": false,
+        "h1": true,
+        "nav": true
+      },
+      "textRatio": 0.013,
+      "jsShellOnly": false
+    },
+    "performance": {
+      "pts": 6,
+      "max": 6,
+      "ttfbMs": 183
+    },
+    "feeds": {
+      "pts": 0,
+      "max": 3,
+      "count": 0
+    },
+    "affordances": {
+      "pts": 1,
+      "max": 10,
+      "mcpManifest": false,
+      "openapi": false,
+      "securityTxt": true
+    }
+  },
+  "score": 65,
+  "maxScore": 100,
+  "grade": "B"
+}

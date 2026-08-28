@@ -1,0 +1,79 @@
+{
+  "url": "https://shopify.com",
+  "origin": "https://shopify.com",
+  "scannedAt": "2026-08-28T13:43:13.274Z",
+  "checks": {
+    "llmsTxt": {
+      "pts": 20,
+      "max": 20,
+      "present": true,
+      "hasH1": true,
+      "hasBlockquote": true,
+      "linkCount": 74,
+      "hasSections": true,
+      "looksLikeHtml": false,
+      "bytes": 12516
+    },
+    "llmsFullTxt": {
+      "pts": 5,
+      "max": 5,
+      "present": true
+    },
+    "robots": {
+      "pts": 15,
+      "max": 15,
+      "present": true,
+      "aiBotsBlocked": [],
+      "allBlocked": false
+    },
+    "sitemap": {
+      "pts": 8,
+      "max": 8,
+      "present": true
+    },
+    "meta": {
+      "pts": 8,
+      "max": 8,
+      "title": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+      "metaDesc": "Try Shopify free. Build or grow your business fast with AI. Get more than ecommerce software with tools to manage every part of your business.",
+      "ogTags": 6
+    },
+    "structuredData": {
+      "pts": 10,
+      "max": 10,
+      "jsonLdBlocks": 1
+    },
+    "extractability": {
+      "pts": 10,
+      "max": 15,
+      "semantic": {
+        "main": true,
+        "article": false,
+        "h1": true,
+        "nav": true
+      },
+      "textRatio": 0.011,
+      "jsShellOnly": false
+    },
+    "performance": {
+      "pts": 6,
+      "max": 6,
+      "ttfbMs": 385
+    },
+    "feeds": {
+      "pts": 0,
+      "max": 3,
+      "count": 0
+    },
+    "affordances": {
+      "pts": 1,
+      "max": 10,
+      "mcpManifest": false,
+      "openapi": false,
+      "securityTxt": true
+    }
+  },
+  "score": 83,
+  "maxScore": 100,
+  "grade": "A"
+}
