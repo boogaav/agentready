@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://agentready.booga.me/sitemap.xml
+Sitemap: https://agentready.civ.fm/sitemap.xml

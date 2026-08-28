@@ -2,7 +2,7 @@
 // Builds the static site into site/ from reports/json/*.json
 import { readFileSync, writeFileSync, readdirSync, mkdirSync } from 'node:fs';
 
-const SITE_URL = 'https://agentready.booga.me';
+const SITE_URL = 'https://agentready.civ.fm';
 const CONTACT = 'boogaav@gmail.com';
 const PRICE = '$29';
 // Payment link — swap when Stripe link exists; until then CTA falls back to email flow.
@@ -242,4 +242,5 @@ writeFileSync('docs/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>
 ${rows.map(r => `<url><loc>${SITE_URL}/reports/${r.site}.html</loc></url>`).join('\n')}
 </urlset>
 `);
-console.log('Built docs/: index.html +', rows.length, 'report pages + llms.txt, robots.txt, sitemap.xml');
+writeFileSync('docs/CNAME', new URL(SITE_URL).host + '\n');
+console.log('Built docs/: index.html +', rows.length, 'report pages + llms.txt, robots.txt, sitemap.xml, CNAME');
