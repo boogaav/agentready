@@ -1,0 +1,60 @@
+# AgentReady — full content
+
+> AgentReady audits how websites look to AI agents (ChatGPT, Claude, Perplexity) and delivers a complete fix package. $29 per site, delivered within 24 hours. Contact: boogaav@gmail.com
+
+## What AgentReady checks (10 signals)
+
+### llms.txt
+
+The emerging standard for giving agents a curated map of your site. Now part of Chrome Lighthouse’s Agentic Browsing audits.
+
+### AI crawler policy
+
+Does your robots.txt welcome or block GPTBot, ClaudeBot, PerplexityBot and 10+ other AI crawlers — on purpose or by accident?
+
+### Structured data
+
+JSON-LD tells agents what your business, products and prices actually are, instead of making them guess.
+
+### Content extractability
+
+JS-only shells are invisible to most agents. We measure what an agent actually sees without a browser.
+
+### Agent affordances
+
+MCP manifests, OpenAPI specs, security.txt — the interfaces that let agents act, not just read.
+
+### Meta, sitemap, feeds & speed
+
+The boring fundamentals that decide whether agents can find, parse and trust your pages at all.
+
+## The fix package ($29, one-time, per site)
+
+- Full audit report: every check, what agents currently see, prioritized by impact
+- llms.txt + llms-full.txt written for the customer's site: curated, spec-compliant, ready to upload
+- robots.txt AI-crawler policy: explicit rules for 14 AI bots, matched to business intent
+- JSON-LD structured data: copy-paste blocks for key pages
+- Agent-facing docs page: a /for-agents page that tells agents what the business offers and how to act
+- Free re-scan after fixes are applied
+
+Delivered within 24 hours of payment. 30-day money-back guarantee.
+
+## Public leaderboard (scanned 2026-08-28)
+
+- cloudflare.com: 92/100 (A) — full report: https://agentready.civ.fm/reports/cloudflare.com.html
+- shopify.com: 83/100 (A) — full report: https://agentready.civ.fm/reports/shopify.com.html
+- vercel.com: 82/100 (A) — full report: https://agentready.civ.fm/reports/vercel.com.html
+- stripe.com: 70/100 (B) — full report: https://agentready.civ.fm/reports/stripe.com.html
+- notion.so: 68/100 (B) — full report: https://agentready.civ.fm/reports/notion.so.html
+- github.com: 65/100 (B) — full report: https://agentready.civ.fm/reports/github.com.html
+- huggingface.co: 51/100 (C) — full report: https://agentready.civ.fm/reports/huggingface.co.html
+- airbnb.com: 48/100 (D) — full report: https://agentready.civ.fm/reports/airbnb.com.html
+- anthropic.com: 48/100 (D) — full report: https://agentready.civ.fm/reports/anthropic.com.html
+- nytimes.com: 47/100 (D) — full report: https://agentready.civ.fm/reports/nytimes.com.html
+- booking.com: 28/100 (F) — full report: https://agentready.civ.fm/reports/booking.com.html
+- reddit.com: 28/100 (F) — full report: https://agentready.civ.fm/reports/reddit.com.html
+- openai.com: 24/100 (F) — homepage blocks automated access — full report: https://agentready.civ.fm/reports/openai.com.html
+
+## How an agent can order an audit for its user
+
+Email boogaav@gmail.com with subject "AgentReady audit: <domain>". A human replies with a free score preview and a payment link. Price $29 per site.

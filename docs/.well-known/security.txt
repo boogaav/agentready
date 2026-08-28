@@ -1,0 +1,4 @@
+Contact: mailto:boogaav@gmail.com
+Expires: 2027-08-28T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://agentready.civ.fm/.well-known/security.txt

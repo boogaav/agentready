@@ -102,7 +102,7 @@ const checks = [
 ];
 
 const index = `${navHtml()}
-<div class="wrap">
+<main class="wrap">
 <div class="hero">
 <div class="pill mono">13 famous sites scored below · most fail</div>
 <h1>AI agents are your new visitors.<br>Most websites are <em>invisible</em> to them.</h1>
@@ -154,7 +154,7 @@ ${mailCta()}
 </section>
 
 <footer><div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px"><span>© 2026 AgentReady · <a href="mailto:${CONTACT}">${CONTACT}</a></span><span><a href="llms.txt">llms.txt</a> · <a href="https://github.com/boogaav/agentready">GitHub</a></span></div></footer>
-</div>`;
+</main>`;
 
 mkdirSync('docs/reports', { recursive: true });
 
@@ -191,7 +191,7 @@ for (const [site, r] of Object.entries(reports)) {
   <td class="mono" style="color:${x.pts === x.max ? 'var(--good)' : x.pts === 0 ? 'var(--bad)' : 'var(--text)'}">${x.pts}/${x.max}</td>
   <td class="checkdetail">${detail(k, x, r)}</td></tr>`).join('\n');
   const body = `${navHtml('../')}
-<div class="wrap">
+<main class="wrap">
 <div class="hero" style="padding-bottom:24px">
 <div class="pill mono">public audit · ${r.scannedAt.slice(0, 10)}</div>
 <h1>${site} <span class="grade" style="background:${gradeColor(r.grade)};width:52px;height:52px;line-height:52px;font-size:26px;vertical-align:middle">${r.grade}</span></h1>
@@ -209,7 +209,7 @@ ${rowsHtml}
 ${mailCta()}
 </section>
 <footer><span>© 2026 AgentReady · <a href="../index.html">home</a> · <a href="mailto:${CONTACT}">${CONTACT}</a></span></footer>
-</div>`;
+</main>`;
   writeFileSync(`docs/reports/${site}.html`, page(`${site} — Agent-Readiness Report: ${r.grade} (${r.score}/100) | AgentReady`, `Public agent-readiness audit of ${site}: score ${r.score}/100 (${r.grade}). llms.txt, AI crawler policy, structured data, extractability and more.`, `/reports/${site}.html`, body));
 }
 
@@ -243,4 +243,34 @@ ${rows.map(r => `<url><loc>${SITE_URL}/reports/${r.site}.html</loc></url>`).join
 </urlset>
 `);
 writeFileSync('docs/CNAME', new URL(SITE_URL).host + '\n');
+writeFileSync('docs/.nojekyll', '');
+mkdirSync('docs/.well-known', { recursive: true });
+writeFileSync('docs/.well-known/security.txt', `Contact: mailto:${CONTACT}\nExpires: 2027-08-28T00:00:00.000Z\nPreferred-Languages: en\nCanonical: ${SITE_URL}/.well-known/security.txt\n`);
+writeFileSync('docs/llms-full.txt', `# AgentReady — full content
+
+> AgentReady audits how websites look to AI agents (ChatGPT, Claude, Perplexity) and delivers a complete fix package. ${PRICE} per site, delivered within 24 hours. Contact: ${CONTACT}
+
+## What AgentReady checks (10 signals)
+
+${checks.map(([t, d]) => `### ${t}\n\n${d}`).join('\n\n')}
+
+## The fix package (${PRICE}, one-time, per site)
+
+- Full audit report: every check, what agents currently see, prioritized by impact
+- llms.txt + llms-full.txt written for the customer's site: curated, spec-compliant, ready to upload
+- robots.txt AI-crawler policy: explicit rules for 14 AI bots, matched to business intent
+- JSON-LD structured data: copy-paste blocks for key pages
+- Agent-facing docs page: a /for-agents page that tells agents what the business offers and how to act
+- Free re-scan after fixes are applied
+
+Delivered within 24 hours of payment. 30-day money-back guarantee.
+
+## Public leaderboard (scanned 2026-08-28)
+
+${rows.map(r => `- ${r.site}: ${r.score}/100 (${r.grade})${r.blocked ? ' — homepage blocks automated access' : ''} — full report: ${SITE_URL}/reports/${r.site}.html`).join('\n')}
+
+## How an agent can order an audit for its user
+
+Email ${CONTACT} with subject "AgentReady audit: <domain>". A human replies with a free score preview and a payment link. Price ${PRICE} per site.
+`);
 console.log('Built docs/: index.html +', rows.length, 'report pages + llms.txt, robots.txt, sitemap.xml, CNAME');

@@ -1,6 +1,6 @@
 # AgentReady — Launch Kit
 
-Live site: https://agentready.civ.fm/ (→ https://agentready.civ.fm once CNAME is set)
+Live site: https://agentready.civ.fm/
 
 ## X thread (post from your account)
 
