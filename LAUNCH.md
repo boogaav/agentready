@@ -1,6 +1,6 @@
 # AgentReady — Launch Kit
 
-Live site: https://boogaav.github.io/agentready/ (→ https://agentready.booga.me once CNAME is set)
+Live site: https://agentready.civ.fm/ (→ https://agentready.civ.fm once CNAME is set)
 
 ## X thread (post from your account)
 
@@ -43,12 +43,12 @@ github.com/boogaav/agentready
 **6/**
 And if you want it fixed, not just scored: we ship a complete fix package (custom llms.txt, AI-crawler robots policy, JSON-LD, agent-facing docs page) for $29, delivered in 24h.
 
-https://boogaav.github.io/agentready/
+https://agentready.civ.fm/
 
 ## Hacker News (Show HN)
 
 Title: `Show HN: I scored 13 famous sites on AI-agent readability — OpenAI got an F`
-URL: https://boogaav.github.io/agentready/
+URL: https://agentready.civ.fm/
 First comment: brief methodology, link to scanner source, invite people to post their own scores.
 
 ## Reddit

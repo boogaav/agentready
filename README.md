@@ -6,4 +6,4 @@ Open-source scanner that scores how ready a website is for AI agents (ChatGPT, C
 node src/scan.mjs example.com
 ```
 
-Full audits + fix packages: https://agentready.booga.me
+Full audits + fix packages: https://agentready.civ.fm
